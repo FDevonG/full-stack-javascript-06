@@ -1,0 +1,19 @@
+extends layout.pug
+
+block content
+
+  article.portfolio-intro
+
+    h1 Portfolio
+
+    p A few projects I have completed in Web Development.
+
+
+  article.portfolio-project-thumbs
+    .projects-box.box.grid
+      each project in projects 
+        .cell
+          a(href=`/project/:${project.id}`)
+            img.thumbnail(src=`${project.main_image_url}`, alt=`${project.project_name}`)
+            h5 #{project.project_name}
+

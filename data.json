@@ -1,0 +1,101 @@
+{
+    "projects": [
+
+        {
+            "id": "0",
+            "project_name": "Quote Generator",
+            "description": "Generates a random quote and then displays it on screen over a rendomly selected background color.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "https://fdevong.github.io/full-stack-javascript-01/",
+            "github_link": "https://github.com/FDevonG/full-stack-javascript-01",
+            "main_image_url": "/static/images/quote_generator/main.png",
+            "image_urls": [
+                "/static/images/quote_generator/one.png",
+                "/static/images/quote_generator/two.png"
+            ]
+        },
+
+        {
+            "id": "1",
+            "project_name": "Data Pagination and Filtering",
+            "description": "Using pagination I displayed user data on the screen divded into pages. Provides the ability to search through the users.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "https://fdevong.github.io/full-stack-javascript-02/",
+            "github_link": "https://github.com/FDevonG/full-stack-javascript-02",
+            "main_image_url": "/static/images/data_pagination/main.png",
+            "image_urls": [
+                "/static/images/data_pagination/one.png",
+                "/static/images/data_pagination/two.png",
+                "/static/images/data_pagination/three.png"
+            ]
+        },
+
+        {
+            "id": "2",
+            "project_name": "Interactive Form",
+            "description": "Using regex and javascript, we validate form elements, providing errors for what is wrong and also notifies what is correct.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Regex"
+            ],
+            "live_link": "https://fdevong.github.io/full-stack-javascript-03/",
+            "github_link": "https://github.com/FDevonG/full-stack-javascript-03",
+            "main_image_url": "/static/images/interactive_form/main.png",
+            "image_urls": [
+                "/static/images/interactive_form/one.png",
+                "/static/images/interactive_form/two.png",
+                "/static/images/interactive_form/three.png"
+            ]
+        },
+
+        {
+            "id": "3",
+            "project_name": "Phrase Game",
+            "description": "The player must select characters one at a time, trying to guess a phrase displayed on screen. If they geuss a charater correct all the matching hidden characters in the phrase are revealed. Guess wrong and they lose a life. Players have five lives before losing the game.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript"
+            ],
+            "live_link": "https://fdevong.github.io/full-stack-javascript-04/",
+            "github_link": "https://github.com/FDevonG/full-stack-javascript-04",
+            "main_image_url": "/static/images/phrase_game/main.png",
+            "image_urls": [
+                "/static/images/phrase_game/one.png",
+                "/static/images/phrase_game/two.png",
+                "/static/images/phrase_game/three.png"
+            ]
+        },
+
+        {
+            "id": "4",
+            "project_name": "Employee Directory",
+            "description": "Using a public API this project fetches fake user data and then uses regex to format the information and then displays it on the screen.",
+            "technologies": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Regex",
+                "Fetch and Public API"
+            ],
+            "live_link": "https://fdevong.github.io/full-stack-javascript-05/",
+            "github_link": "https://github.com/FDevonG/full-stack-javascript-05",
+            "main_image_url": "/static/images/employee_directory/main.png",
+            "image_urls": [
+                "/static/images/employee_directory/one.png",
+                "/static/images/employee_directory/two.png"
+            ]
+        }
+
+    ]
+}
